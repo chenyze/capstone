@@ -57,9 +57,9 @@ Unfamiliarity with the consumer landscape was also disadvantageous for me. For i
 
 The clients are based in Burma, which also made communication unwieldy. I did not want to seem like I'm constantly asking them a stream of questions, so I tried to consolidate my questions first. The disadvantage to that approach is that it added delays simply because I was taking so long to even get a sense of what I need to ask!
 
-Some business logic in the database also felt counter-intuitive compared to the best practices I've learned about database management back in university. For instance, the location table, which I would presume to be a concise list of locations along the bus routes, turned out to be full of duplicates and erroneous data. I learned that it's because bus operators have flexibility to add/update the location / subroute tables however they want, resulting in typos and variations (e.g. Nyaung-Shwe vs NyaungShwe)... and a lot of duplicates.
+Some business logic in the database also felt counter-intuitive compared to the best practices I've learned about database management back in university. For instance, the location table, which I would presume to be a concise list of locations along the bus routes, turned out to be full of duplicates and erroneous data. I learned that it's because bus operators have flexibility to add/update the location / subroute tables however they want, resulting in typos and variations (e.g. Nyaung-Shwe vs NyaungShwe) and duplicates. 
 
-At other times, the business logic felt so hidden I almost thought it was missing! Effectively, there's a lot of back-and-forth process with the clients to  understand and run analyses on the data.
+Effectively, there was a lot of back-and-forth discussion with the clients to  understand and run analyses on the data.
 
 #### Preprocessing and Modeling
 
@@ -104,3 +104,7 @@ Decision Tree Regressor mostly fared poorly but I did manage to gridsearch a 'go
 	* Which time periods are more popular?
 * Experiment with creating a cleaning/pre-processing pipeline for visualisation on Tableau
 
+
+### Thoughts on the project
+
+Working with real data was an eye-opening experience that I'm immensely grateful for. As much as there were struggles at times to make sense of the data or grasp the business logic, I believe I walked away with a solid experience on what it takes to do data analysis and machine learning in the real world. Context matters. While certain data decisions may seem counter-intuitive to best practices, the reality is that it's not always possible to hit every best practice when you need to  launch a business quickly and scale quickly. This project was a timely reminder that sometimes, good-enough is more valuable than perfect. 
